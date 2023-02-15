@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Arenda.Seeding": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:64822;http://localhost:64823"
+    }
+  }
+}

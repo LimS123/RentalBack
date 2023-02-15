@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{727646B1-2994-477F-A11E-399D33960594}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arenda.DataAccess", "src\Arenda.DataAccess\Arenda.DataAccess.csproj", "{E0FA5F3B-1D17-4E7E-B691-508ACA182AA6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arenda.BusinessLogic", "src\Arenda.BusinessLogic\Arenda.BusinessLogic.csproj", "{4D56CFF5-F8CC-4A9C-ABF1-675B55A3D51F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arenda.WebAPI", "src\Arenda.WebAPI\Arenda.WebAPI.csproj", "{A31A70B1-834F-44DC-B78C-8007111990BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C2230080-7DB2-4978-9530-A9CFBD2C387F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arenda.IntegrationTests", "tests\Arenda.IntegrationTests\Arenda.IntegrationTests.csproj", "{022DFDAE-6FA5-47EE-B55B-614E93AA6F94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arenda.Seeding", "src\Arenda.Seeding\Arenda.Seeding.csproj", "{D4B7654A-681D-4756-B84F-218EEE1EA452}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0FA5F3B-1D17-4E7E-B691-508ACA182AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0FA5F3B-1D17-4E7E-B691-508ACA182AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0FA5F3B-1D17-4E7E-B691-508ACA182AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0FA5F3B-1D17-4E7E-B691-508ACA182AA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D56CFF5-F8CC-4A9C-ABF1-675B55A3D51F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D56CFF5-F8CC-4A9C-ABF1-675B55A3D51F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D56CFF5-F8CC-4A9C-ABF1-675B55A3D51F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D56CFF5-F8CC-4A9C-ABF1-675B55A3D51F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A31A70B1-834F-44DC-B78C-8007111990BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31A70B1-834F-44DC-B78C-8007111990BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31A70B1-834F-44DC-B78C-8007111990BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31A70B1-834F-44DC-B78C-8007111990BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{022DFDAE-6FA5-47EE-B55B-614E93AA6F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{022DFDAE-6FA5-47EE-B55B-614E93AA6F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{022DFDAE-6FA5-47EE-B55B-614E93AA6F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{022DFDAE-6FA5-47EE-B55B-614E93AA6F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B7654A-681D-4756-B84F-218EEE1EA452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B7654A-681D-4756-B84F-218EEE1EA452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B7654A-681D-4756-B84F-218EEE1EA452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B7654A-681D-4756-B84F-218EEE1EA452}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{022DFDAE-6FA5-47EE-B55B-614E93AA6F94} = {C2230080-7DB2-4978-9530-A9CFBD2C387F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E59EF90-E0D0-4E8E-9E05-A8350F5E0457}
+	EndGlobalSection
+EndGlobal
